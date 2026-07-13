@@ -82,7 +82,7 @@ export default function Experience() {
       <ScrollReveal>
         <div className="flex flex-col md:flex-row">
           {/* Tab buttons */}
-          <div className="flex md:flex-col overflow-x-auto md:overflow-visible mb-4 md:mb-0 md:mr-6 shrink-0">
+          <div className="flex md:flex-col overflow-x-auto scrollbar-hide md:overflow-visible mb-4 md:mb-0 md:mr-6 shrink-0">
             {jobs.map((job, i) => (
               <button
                 key={`${job.company}-${job.range}`}

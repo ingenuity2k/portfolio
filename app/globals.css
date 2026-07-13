@@ -35,6 +35,16 @@
   }
 }
 
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 @layer components {
   .section-heading {
     @apply flex items-center text-[28px] font-semibold text-off-white whitespace-nowrap after:content-[''] after:block after:w-[300px] after:h-[1px] after:ml-5 after:bg-navy-lightest;

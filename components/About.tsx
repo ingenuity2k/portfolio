@@ -41,7 +41,7 @@ export default function About() {
               <a href="https://nts.ch" target="_blank" rel="noopener noreferrer" className="text-green font-mono text-sm hover:underline">
                 NTS Workspace
               </a>,
-              to CI/CD and client projects for Clients like Swisscom, Mobiliar and
+              to CI/CD and projects for Clients like Swisscom, Mobiliar and
               Adcubum at{" "}
               <a href="https://puzzle.ch" target="_blank" rel="noopener noreferrer" className="text-green font-mono text-sm hover:underline">
                 Puzzle ITC
