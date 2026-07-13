@@ -87,7 +87,7 @@ export default function Experience() {
               <button
                 key={`${job.company}-${job.range}`}
                 onClick={() => setActiveTab(i)}
-                className={`relative whitespace-nowrap px-5 py-3 font-mono text-sm text-left transition-colors duration-200 min-w-[140px] ${
+                className={`relative whitespace-nowrap px-5 py-3 font-mono text-sm text-left transition-colors duration-200 md:min-w-[140px] ${
                   activeTab === i
                     ? "text-green"
                     : "text-slate hover:text-off-white hover:bg-navy-light/50"
