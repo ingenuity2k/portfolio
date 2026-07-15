@@ -23,6 +23,14 @@ const miniProjects: MiniProject[] = [
     image: "/cyd-photo.jpg",
     span: 2,
   },
+  {
+    title: "MiMo Monitor Display",
+    description:
+      "Physical desk monitor for Xiaomi MiMo API token usage. Shows live credit consumption, burn rate, balance, and quota progress on a CYD ESP32 board. Supabase backend scrapes the MiMo API on a schedule and the display reads it over WiFi.",
+    tech: ["ESP32", "LVGL", "Supabase", "Deno", "Arduino"],
+    github: "https://github.com/ingenuity2k/mimo-monitor-display",
+    image: "/mimo-display.jpg",
+  },
 ];
 
 export default function OtherProjects() {
